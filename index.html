@@ -9,18 +9,33 @@
     <link rel="stylesheet" href="Styles/video.css">
   </head>
   <body>
-    <div class="Header">
-      <!--left side-->
-      <div class="left_header">
-
+    
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #ccc;">
+      <!-- Left (Logo) -->
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="Buttons\youtube-logo.svg" alt="Logo" style="height: 24px;">
       </div>
-      <!--centre header-->
-      <div class="centre_header">
+      <!-- Center (Search Bar) -->
+      <div style="display: flex; align-items: center; flex: 1; justify-content: center; gap: 5px;">
         <input class="search" type="text" placeholder="Search">
+        <button style="width: 45px; border: none; background-color:rgb(256, 256, 256); cursor: pointer;">
+          <img src="Buttons\search.svg" alt="Logo">
+        </button>
+        <button style="width: 45px; border: none; background-color: rgb(256, 256, 256); cursor: pointer;">
+          <img src="Buttons\voice-search-icon.svg" alt="Logo">
+        </button>
       </div>
-      <!--right side-->
-      <div class="right_header">
-
+      <!-- Right (Profile Icons) -->
+      <div style="display: flex; align-items: center; gap: 15px;">
+        <button style="width: 45px; border: none; background-color:rgb(256, 256, 256); cursor: pointer;">
+          <img src="Buttons\upload.svg" alt="Logo">
+        </button>
+        <button style="width: 45px; border: none; background-color:rgb(256, 256, 256); cursor: pointer;">
+          <img src="Buttons\notifications.svg" alt="Logo">
+        </button>
+        <div class="image">
+          <img class="channel-image"src="channel/channel-1.jpeg" alt="Logo">
+        </div>
       </div>
     </div>
 
