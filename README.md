@@ -1,6 +1,6 @@
 # YouTube-Clone
 
-A front-end YouTube homepage clone built using **HTML** and **CSS**. This project is focused on replicating the layout and design of YouTube's interface using responsive web design techniques, including Flexbox, CSS Grid, and media queries.
+A front-end YouTube homepage clone built using **HTML** and **CSS**. This project is focused on replicating the layout and design of YouTube's interface using responsive web design techniques, including Flexbox, CSS Grid, and media queries. Here I used nested layout techniques including horizontal and verticlal layoouts in Nested grid for the video cards whereas Nested Flexbox for the Header of the Clone including youtube icon, Search Bar and Profile Picture.
 
 ## Features
 - Responsive layout (mobile-friendly)
@@ -16,6 +16,9 @@ A front-end YouTube homepage clone built using **HTML** and **CSS**. This projec
 - Flexbox
 - CSS Grid
 - Google Fonts
+
+### Link of The Clone Site: 
+https://vaibhav012007.github.io/YouTube-Clone/
 
 ## What I Learned
 - Structuring large HTML layouts
